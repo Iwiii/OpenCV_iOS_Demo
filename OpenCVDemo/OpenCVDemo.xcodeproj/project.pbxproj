@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		401C57E3200C8C4600F16C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 401C57E2200C8C4600F16C54 /* AppDelegate.m */; };
-		401C57E6200C8C4600F16C54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401C57E5200C8C4600F16C54 /* ViewController.m */; };
+		401C57E6200C8C4600F16C54 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 401C57E5200C8C4600F16C54 /* ViewController.mm */; };
 		401C57E9200C8C4600F16C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C57E7200C8C4600F16C54 /* Main.storyboard */; };
 		401C57EB200C8C4600F16C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401C57EA200C8C4600F16C54 /* Assets.xcassets */; };
 		401C57EE200C8C4600F16C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401C57EC200C8C4600F16C54 /* LaunchScreen.storyboard */; };
 		401C57F1200C8C4600F16C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 401C57F0200C8C4600F16C54 /* main.m */; };
 		401C57FB200C8C4600F16C54 /* OpenCVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401C57FA200C8C4600F16C54 /* OpenCVDemoTests.m */; };
 		401C5806200C8C4600F16C54 /* OpenCVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401C5805200C8C4600F16C54 /* OpenCVDemoUITests.m */; };
+		401C5817200C976D00F16C54 /* opencv_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 401C5815200C976D00F16C54 /* opencv_filter.cpp */; };
+		401C581A200CA2B000F16C54 /* ImageManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 401C5819200CA2B000F16C54 /* ImageManager.mm */; };
+		401C581E200CA71E00F16C54 /* pic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 401C581D200CA71E00F16C54 /* pic_0.png */; };
+		401C5820200CB23600F16C54 /* pic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 401C581F200CB23600F16C54 /* pic_1.png */; };
 		486F26EA2B9A14B627F9415B /* libPods-OpenCVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F287BC01A6EB577845CFD2 /* libPods-OpenCVDemo.a */; };
 		9159B9EC1B1868B56D126F59 /* libPods-OpenCVDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD272965C87577C8BE7F9719 /* libPods-OpenCVDemoTests.a */; };
 		B7E3F90269D630D40B32A470 /* libPods-OpenCVDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DACA79F2EE919C5BFC602046 /* libPods-OpenCVDemoUITests.a */; };
@@ -43,7 +47,7 @@
 		401C57E1200C8C4600F16C54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		401C57E2200C8C4600F16C54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		401C57E4200C8C4600F16C54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		401C57E5200C8C4600F16C54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		401C57E5200C8C4600F16C54 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		401C57E8200C8C4600F16C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		401C57EA200C8C4600F16C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401C57ED200C8C4600F16C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,12 @@
 		401C5801200C8C4600F16C54 /* OpenCVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401C5805200C8C4600F16C54 /* OpenCVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVDemoUITests.m; sourceTree = "<group>"; };
 		401C5807200C8C4600F16C54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401C5815200C976D00F16C54 /* opencv_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = opencv_filter.cpp; sourceTree = "<group>"; };
+		401C5816200C976D00F16C54 /* opencv_filter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = opencv_filter.hpp; sourceTree = "<group>"; };
+		401C5818200CA2B000F16C54 /* ImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		401C5819200CA2B000F16C54 /* ImageManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageManager.mm; sourceTree = "<group>"; };
+		401C581D200CA71E00F16C54 /* pic_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_0.png; sourceTree = "<group>"; };
+		401C581F200CB23600F16C54 /* pic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_1.png; sourceTree = "<group>"; };
 		85DA12D4BF516C028EA5DD2D /* Pods-OpenCVDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVDemoTests/Pods-OpenCVDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A15BF2FA557DA904123BC74D /* Pods-OpenCVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVDemo/Pods-OpenCVDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A7F287BC01A6EB577845CFD2 /* libPods-OpenCVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,10 +128,12 @@
 		401C57E0200C8C4600F16C54 /* OpenCVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				401C581B200CA6ED00F16C54 /* Resources */,
+				401C5813200C908500F16C54 /* YALImageKit */,
 				401C57E1200C8C4600F16C54 /* AppDelegate.h */,
 				401C57E2200C8C4600F16C54 /* AppDelegate.m */,
 				401C57E4200C8C4600F16C54 /* ViewController.h */,
-				401C57E5200C8C4600F16C54 /* ViewController.m */,
+				401C57E5200C8C4600F16C54 /* ViewController.mm */,
 				401C57E7200C8C4600F16C54 /* Main.storyboard */,
 				401C57EA200C8C4600F16C54 /* Assets.xcassets */,
 				401C57EC200C8C4600F16C54 /* LaunchScreen.storyboard */,
@@ -147,6 +159,42 @@
 				401C5807200C8C4600F16C54 /* Info.plist */,
 			);
 			path = OpenCVDemoUITests;
+			sourceTree = "<group>";
+		};
+		401C5813200C908500F16C54 /* YALImageKit */ = {
+			isa = PBXGroup;
+			children = (
+				401C5814200C909600F16C54 /* Filter_Algorithm */,
+			);
+			path = YALImageKit;
+			sourceTree = "<group>";
+		};
+		401C5814200C909600F16C54 /* Filter_Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				401C5815200C976D00F16C54 /* opencv_filter.cpp */,
+				401C5816200C976D00F16C54 /* opencv_filter.hpp */,
+				401C5818200CA2B000F16C54 /* ImageManager.h */,
+				401C5819200CA2B000F16C54 /* ImageManager.mm */,
+			);
+			path = Filter_Algorithm;
+			sourceTree = "<group>";
+		};
+		401C581B200CA6ED00F16C54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				401C581C200CA6FC00F16C54 /* Pics */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		401C581C200CA6FC00F16C54 /* Pics */ = {
+			isa = PBXGroup;
+			children = (
+				401C581F200CB23600F16C54 /* pic_1.png */,
+				401C581D200CA71E00F16C54 /* pic_0.png */,
+			);
+			path = Pics;
 			sourceTree = "<group>";
 		};
 		4BEF66C336AF7F75E0F40951 /* Pods */ = {
@@ -288,8 +336,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				401C57EE200C8C4600F16C54 /* LaunchScreen.storyboard in Resources */,
+				401C5820200CB23600F16C54 /* pic_1.png in Resources */,
 				401C57EB200C8C4600F16C54 /* Assets.xcassets in Resources */,
 				401C57E9200C8C4600F16C54 /* Main.storyboard in Resources */,
+				401C581E200CA71E00F16C54 /* pic_0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +511,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				401C57E6200C8C4600F16C54 /* ViewController.m in Sources */,
+				401C57E6200C8C4600F16C54 /* ViewController.mm in Sources */,
 				401C57F1200C8C4600F16C54 /* main.m in Sources */,
+				401C581A200CA2B000F16C54 /* ImageManager.mm in Sources */,
+				401C5817200C976D00F16C54 /* opencv_filter.cpp in Sources */,
 				401C57E3200C8C4600F16C54 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
